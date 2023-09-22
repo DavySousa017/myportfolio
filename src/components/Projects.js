@@ -5,10 +5,7 @@ import PropsProject from "./props/PropsProject";
 
 const Projects = () => {
   return (
-    <div
-      id="projects"
-      className="flex items-center justify-center"
-    >
+    <div id="projects" className="flex items-center justify-center">
       <section className="bg-black/20 w-full py-36">
         <div className="container mx-auto rounded-3xl">
           <div>

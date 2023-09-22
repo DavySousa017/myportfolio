@@ -72,7 +72,7 @@ const Header = () => {
         <div className="animate-bounce">
           <button aria-label="ir para proximo elemento" type="button">
             <a href="#about">
-            {/* smooth={true} duration={500} */}
+              {/* smooth={true} duration={500} */}
               <svg
                 className="rotate-90"
                 xmlns="http://www.w3.org/2000/svg"
