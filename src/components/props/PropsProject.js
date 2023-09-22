@@ -6,7 +6,7 @@ const PropsProject = (props) => {
       <article className="flex items-center justify-between">
         <div className="flex mt-8 p-5 gap-5 backdrop-blur-sm bg-gradient-to-r from-bkgsecundary/50 to-black/30 rounded-3xl max-lg:flex-col">
           <div className="flex flex-col justify-center space-y-4 font-semibold max-w-[570px]">
-            <span className=" font-mediumblock text-white/50">
+            <span className="font-normal text-white/50">
               {props.status}
             </span>
             <div className="flex">

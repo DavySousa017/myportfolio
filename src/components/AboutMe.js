@@ -9,11 +9,12 @@ const AboutMe = () => {
       className="py-32 relative border-b-[1px] border-white/10 flex justify-center"
     >
       <div className="container">
+        <div className="mx-auto my-0 max-[1300px]:px-4">
         <SubTitle title="Sobre" bold="mim" />
-        <div className="mx-auto my-0 px-24 max-[1300px]:px-4">
-          <div className="flex items-center justify-between max-lg:flex-col max-lg:items-center">
-            <div className="max-w-[600px] max-lg:w-full max-lg:mb-10">
-              <p className="text-justify text-lg mt-3 font-normal">
+          <div className="">
+            <div className="flex justify-evenly max-lg:flex-col max-lg:items-center max-lg:w-full max-lg:mb-10">
+              <div className="flex max-w-[600px] mt-3">
+              <p className="text-justify text-lg font-normal">
                 Olá, sou um <b>programador web</b> apaixonado por transformar
                 ideias em realidade digital. Nasci em <b>2004</b>, sou{" "}
                 <b>brasileiro</b> e estudo{" "}
@@ -29,11 +30,12 @@ const AboutMe = () => {
                 enfrentar desafios futuros e contribuir para o mundo da web com
                 inovação e criatividade.
               </p>
-            </div>
-            <div>
+              </div>
+            <div className="flex">
               <span>
-                <Image src={AboutMeImage} alt="Ilustração" />
+                <Image src={AboutMeImage} alt="Ilustração" className="w-[600px]"/>
               </span>
+            </div>
             </div>
           </div>
         </div>

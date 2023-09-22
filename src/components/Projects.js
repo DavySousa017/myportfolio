@@ -2,6 +2,7 @@ import SubTitle from "./props/Subtitle";
 import ScarletIMG from "../../public/gfscarlet.png";
 import ExempleProject from "../../public/exempleproject.png";
 import PropsProject from "./props/PropsProject";
+import './styles.css'
 
 const Projects = () => {
   return (
@@ -10,7 +11,7 @@ const Projects = () => {
         <div className="container mx-auto rounded-3xl">
           <div>
             <SubTitle title="Projetos" bold="recentes" />
-            <div className="flex flex-wrap pl-5 gap-4 mt-4 items-center">
+            <div className="flex flex-wrap pl-5 gap-4 items-center max-lg:gap-2">
               <a className="py-3 px-8 bg-secundary rounded-full uppercase max-lg:py-2 max-lg:px-4 text-xs">
                 all
               </a>

@@ -1,0 +1,6 @@
+#projects {
+    background-image: url(../../public/ProjectsPage.png);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 10;
+}
