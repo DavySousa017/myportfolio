@@ -9,7 +9,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#fff",
+        secundary: "#7127BA",
+        bkgprimary: "#11071F",
+        bkgsecundary: "#1A0B2E",
+      },
+      fontFamily: {
+        custom: ['Poppins', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

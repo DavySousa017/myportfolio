@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
+import AboutMe from '@/components/AboutMe'
 
 
 const page = () => {
   return (
-    <div className=''>
-      
+    <div className='bg-bkgprimary text-white font-custom'>
+      <AboutMe/>
     </div>
   )
 }
