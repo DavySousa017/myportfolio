@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <section
         id="header"
-        className="container flex flex-col items-center justify-center h-[81vh] mx-auto py-32"
+        className="container flex flex-col items-center justify-center h-[81vh] mx-auto"
       >
         <div className="max-sm:text-sm max-[460]:text-xs max-md:text-center">
           Olá! Meu nome é Davy e sou um
