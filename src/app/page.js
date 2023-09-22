@@ -2,6 +2,7 @@ import React from 'react'
 import AboutMe from '@/components/AboutMe'
 import Header from '@/components/Header'
 import Skills from '@/components/Skills'
+import Projects from '@/components/Projects'
 
 
 const page = () => {
@@ -10,6 +11,7 @@ const page = () => {
       <Header/>
       <AboutMe/>
       <Skills/>
+      <Projects/>
     </div>
   )
 }
