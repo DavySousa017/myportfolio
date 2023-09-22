@@ -7,9 +7,9 @@ const Header = () => {
         id="header"
         className="container flex flex-col items-center justify-center h-[81vh] mx-auto py-32"
       >
-        <div className="max-sm:text-sm max-[460]:text-xs">
+        <div className="max-sm:text-sm max-[460]:text-xs max-md:text-center">
           Olá! Meu nome é Davy e sou um
-          <h2 className="uppercase text-8xl font-medium text-center mt-2 max-md:text-5xl max-[440px]:text-3xl">
+          <h2 className="uppercase text-8xl font-medium text-center mt-2 max-lg:text-7xl max-md:text-5xl max-[440px]:text-3xl">
             desenvolvedor
             <br />
             <span className=" font-bold text-secundary animate-pulse">

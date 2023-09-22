@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 const page = () => {
   return (
     <div className="bg-bkgprimary text-white font-custom">
-      <link rel="icon" href="/public/next.svg" sizes="any" />
       <div className="bg-gradient-to-br from-transparent via-black/20 to-black/50">
         <Header />
         <AboutMe />
