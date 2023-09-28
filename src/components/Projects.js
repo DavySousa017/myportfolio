@@ -30,7 +30,7 @@ const Projects = () => {
             <PropsProject
               status="(desenvolvimento)"
               name="GF-Scarlet"
-              description="O GF-Scarlet, é um projeto full-stack em desenvolvimento para um servidor privado de Grand-Fantasia, um MMORPG. Esse projeto conta com um sistema de Login e Cadastros (CRUD) de novos usuários por meio de um banco de dados PostgreSQL."
+              description="O GF-Scarlet, é um projeto full-stack em desenvolvimento para um servidor privado de Grand-Fantasia, um MMORPG. Esse projeto conta com um sistema de Login e Cadastros (CRUD) de novos usuários em um banco de dados PostgreSQL."
               img={ScarletIMG}
               svg={
                 <>
