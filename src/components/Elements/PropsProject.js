@@ -9,6 +9,9 @@ const PropsProject = (props) => {
             <span className="font-normal text-white/50">
               {props.status}
             </span>
+            <span className="flex text-sm gap-3">
+                {props.svg}
+              </span>
             <div className="flex">
               <h3 className="text-4xl capitalize font-medium max-lg:text-xl text-secundary">
                 {props.name}
@@ -20,8 +23,8 @@ const PropsProject = (props) => {
             <Image
               src={props.img}
               alt={`imagem do projeto`}
-              width={570}
-              height={310}
+              width={1920}
+              height={1080}
               className="rounded-lg w-[570px] max-h-[310px]"
             />
           </div>

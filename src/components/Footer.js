@@ -5,21 +5,21 @@ const Footer = () => {
     <footer className="flex justify-center">
       <aside className="flex flex-col gap-12 w-full justify-center items-center py-10 uppercase border-t-[1px] border-white/10">
         <div className="flex flex-wrap justify-center p-4 gap-12 max-sm:gap-4">
-          <Link href={"#header"} className="cursor-pointer">
+          <Link href={"#header"} className="text-white/50 cursor-pointer hover:scale-110 hover:-translate-y-1 ease-out duration-300 hover:text-white">
             início
           </Link>
-          <Link href={"#about"} className="cursor-pointer">
+          <Link href={"#about"} className="text-white/50 cursor-pointer hover:scale-110 hover:-translate-y-1 ease-out duration-300 hover:text-white">
             sobre mim
           </Link>
-          <Link href={"#skills"} className="cursor-pointer">
+          <Link href={"#skills"} className="text-white/50 cursor-pointer hover:scale-110 hover:-translate-y-1 ease-out duration-300 hover:text-white">
             tecnologias
           </Link>
-          <Link href={"#projects"} className="cursor-pointer">
+          <Link href={"#projects"} className="text-white/50 cursor-pointer hover:scale-110 hover:-translate-y-1 ease-out duration-300 hover:text-white">
             projetos
           </Link>
         </div>
         <ul className="flex gap-12">
-          <li>
+          <li className="hover:scale-110 hover:-translate-y-1 ease-out duration-300">
             <a
               href="https://www.Linkedin.com/in/davysousa"
               aria-label="ir para o ScrollLinkedin"
@@ -35,7 +35,7 @@ const Footer = () => {
               </svg>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-110 hover:-translate-y-1 ease-out duration-300">
             <a
               href="https://github.com/DavySousa017"
               aria-label="ir para o GitHub"
@@ -51,7 +51,7 @@ const Footer = () => {
               </svg>
             </a>
           </li>
-          <li>
+          <li className="hover:scale-110 hover:-translate-y-1 ease-out duration-300">
             <a
               href="mailto:d4vy.sousa@gmail.com"
               aria-label="Envie-me um email"

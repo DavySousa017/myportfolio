@@ -18,7 +18,7 @@ const Header = () => {
           </h2>
           <div className="">
             <ul className="flex p-10 gap-12 justify-center">
-              <li>
+              <li className="hover:scale-110 hover:-translate-y-1 ease-out duration-300">
                 <a
                   href="https://www.linkedin.com/in/davysousa"
                   aria-label="ir para o Linkedin"
@@ -34,7 +34,7 @@ const Header = () => {
                   </svg>
                 </a>
               </li>
-              <li>
+              <li className="hover:scale-110 hover:-translate-y-1 ease-out duration-300">
                 <a
                   href="https://github.com/DavySousa017"
                   aria-label="ir para o GitHub"
@@ -50,7 +50,7 @@ const Header = () => {
                   </svg>
                 </a>
               </li>
-              <li>
+              <li className="hover:scale-110 hover:-translate-y-1 ease-out duration-300">
                 <a
                   href="mailto:d4vy.sousa@gmail.com"
                   aria-label="Envie-me um email"
