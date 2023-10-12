@@ -1,5 +1,6 @@
 import SubTitle from "./Elements/Subtitle";
 import ScarletIMG from "../../public/gfscarlet.png";
+import ShoppingCart from "../../public/image.png"
 import ExempleProject from "../../public/exempleproject.png";
 import PropsProject from "./Elements/PropsProject";
 import "./styles.css";
@@ -27,6 +28,46 @@ const Projects = () => {
             </div>
           </div>
           <div className="mt-12 space-y-36">
+          <PropsProject
+              name="Shopping-Cart"
+              description="Um carrinho de compras desenvolvido em Next.js e Tailwind que permite aos usuários adicionar produtos a um carrinho virtual e visualizar o que está no carrinho."
+              img={ShoppingCart}
+              url={'https://shoppingcart-ruby.vercel.app/'}
+              svg={
+                <>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="2em"
+                    fill="#e44d26"
+                    viewBox="0 0 384 512"
+                  >
+                    <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="2em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#44a8b3"
+                      d="M12 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.31.74 1.91 1.35c.98 1 2.09 2.15 4.59 2.15c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6m-5 6c-2.67 0-4.33 1.33-5 4c1-1.33 2.17-1.83 3.5-1.5c.76.19 1.3.74 1.91 1.35C8.39 16.85 9.5 18 12 18c2.67 0 4.33-1.33 5-4c-1 1.33-2.17 1.83-3.5 1.5c-.76-.19-1.3-.74-1.91-1.35C10.61 13.15 9.5 12 7 12Z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="2em"
+                    viewBox="0 0 15 15"
+                  >
+                    <path
+                      fill="white"
+                      fillRule="evenodd"
+                      d="M0 7.5a7.5 7.5 0 1 1 11.697 6.216L4.907 4.21A.5.5 0 0 0 4 4.5V12h1V6.06l5.83 8.162A7.5 7.5 0 0 1 0 7.5ZM10 10V4h1v6h-1Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </>
+              }
+            />
             <PropsProject
               status="(desenvolvimento)"
               name="GF-Scarlet"
@@ -77,13 +118,7 @@ const Projects = () => {
             />
             <PropsProject
               status="(desenvolvimento)"
-              name="exemple project 02"
-              description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus porro laborum quibusdam, quaerat quisquam maiores cumque necessitatibus repellat sit libero fugit sunt dolore eos illum autem consectetur unde velit, laudantium."
-              img={ExempleProject}
-            />
-            <PropsProject
-              status="(desenvolvimento)"
-              name="exemple project 02"
+              name="exemple project"
               description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus porro laborum quibusdam, quaerat quisquam maiores cumque necessitatibus repellat sit libero fugit sunt dolore eos illum autem consectetur unde velit, laudantium."
               img={ExempleProject}
             />
